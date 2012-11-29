@@ -1,241 +1,93 @@
-<!doctype html>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Prework by flatiron-school</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>Flatiron School Prework</title>
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+    <link rel="stylesheet" type="text/css" href="css/inconsolata.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/highlight.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
+
+    <!-- [if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
+    <link rel="apple-touch-icon-precomposed" href="">
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Prework</h1>
-        <p></p>
-
-        <p class="view"><a href="https://github.com/flatiron-school/prework">View the Project on GitHub <small>flatiron-school/prework</small></a></p>
 
 
-        <ul>
-          <li><a href="https://github.com/flatiron-school/prework/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/flatiron-school/prework/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/flatiron-school/prework">View On <strong>GitHub</strong></a></li>
+    <div class="span3 fixed" style="top: 20px; position: fixed">
+      <div class="well sidebar-nav">
+        <h1>Flatiron School's Prework</h1>
+        <ul class="nav nav-list">
+          <li class="nav-header">Contents</li>
+          <li><a href="#overview">Overview</a></li>
+          <li class="nav-header">Internet Basics</li>
+          <li><a href="#internet-history">History</a></li>
+          <li><a href="#">The Command Line</a></li>
+          <li><a href="#">SQL & Databases</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">GIT</a></li>
+          <li class="nav-header">Programming</li>
+          <li><a href="#">Basics</a></li>
+          <li><a href="#">Javascript</a></li>
+          <li><a href="#">Ruby</a></li>
+          <li><a href="#">Rails</a></li>
+          <li class="nav-header">Advanced</li>
+          <li><a href="#">Testing</a></li>
+          <li><a href="#">Best Practices</a></li>
+          <li class="nav-header">About</li>
+          <li><a href="#">Credits</a></li>
+          <li><a href="#">Contributing</a></li>
         </ul>
-      </header>
-      <section>
-        <h3>The Flatiron School's Prework</h3>
+      </div>
+    </div>
 
-<p>In this document you’re going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundementals and abstractions. Enjoy.</p>
+    <div class="container-fluid" style="margin-left: 300px">
+      <div class="row-fluid">
 
-<p>The main topics we want you to know about before the semester starts are: Internet Basics, Command-Line Interface, Git Version Control, SQL and Databases, HTML, CSS, Javascript and jQuery, Ruby, and Ruby on Rails.</p>
+        <div class="span8" id="content" data-spy="scroll" data-target=".nav-list">
+          <div class="row-fluid">
+            <div class="span12 document">
+              <div id="overview">
+                <h2 class="page-header">Overview</h2>
+                <p>In this document you’re going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundementals and abstractions. Enjoy.</p>
+                <h3>What problem does it solve?</h3>
+                <p>It provides an easy way to interact with requests before and after they are processed. But it's primary value add is that it's a hybrid buffered, streaming middleware kernel that isn't coupled with any other software.</p>
+                <h3>Integration with Flatiron</h3>
+                <p>By using <code>flatiron.plugins.http</code> you can configure and control a union server. The middleware used by union are compatible with <a href="http://expressjs.com">express</a> and <a href="http://senchalabs.org/connect">connect</a>.</p>
+              </div>
 
-<p>Each resource has an estimated amount of time it should take you if you have 0 prior knowledge on the topic. In total, if you are coming to this with absolutely no experience, as in, you’d have trouble articulating what
-is, then I estimate this work will take you between 80 - 100 hours to complete. If you are a rockstar, this shouldn’t take more than a 6-10 hours. Most of you are somewhere in between.</p>
 
-<p>If you are familiar with the topic, I highly suggest trying to take the quiz or challenge first. If you pass easily and collect the badge, great, move on. That being said, even I found myself learning new things during this assessment, so maybe try to watch the videos on the topics with which you are most unfamiliar.</p>
 
-<p>I’ve also added some optional resources. If you are familiar with the required material, take a stab at the optional and advanced topics. The goal in the next 4 months is to immerse yourself in as much technology as possible.</p>
-
-<p>In terms of reading and watching videos, feel free to skip through - go for overall coverage as opposed to depth - try to read and watch as much as possible and then try to take the quiz. Be quick, and then do a 2nd round of reading and watching</p>
-
-<p>Also, if you find yourself stuck, or stuff doesn’t make sense, or things are taking way longer than I thought they would, please email me! I’d love to keep track of your progress and what you’re working on, the purpose of this assessment is simply to see where we all stand and give you all a chance to get caught up on some basic skills.</p>
-
-<p>The goal in the end is for you to submit your Code School and Treehouse profiles and for me to see that you’ve completed all the required badges and assessments that are listed below.</p>
-
-<p>INTERNET BASICS</p>
-
-<p>The goal of this section is for you to understanding the basics of the web. What web servers are, how code is interpreted, basic things like that.</p>
-
-<p>Website Basics: 1.5 Hours
-<a href="http://teamtreehouse.com/library/websites/website-basics">http://teamtreehouse.com/library/websites/website-basics</a></p>
-
-<p>Technology Foundations: 1 Hour 
-<a href="http://teamtreehouse.com/library/websites/technology-foundations">http://teamtreehouse.com/library/websites/technology-foundations</a></p>
-
-<p>Aesthetic Foundations: 2.5 Hours
-<a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">http://teamtreehouse.com/library/websites/aesthetic-foundations</a></p>
-
-<p>Reading: Term Definitions: 2 Hours
-<a href="http://www.skillcrush.com/terms/domain.html">http://www.skillcrush.com/terms/domain.html</a>
-<a href="http://www.skillcrush.com/terms/pop-imap.html">http://www.skillcrush.com/terms/pop-imap.html</a>
-<a href="http://www.skillcrush.com/terms/wysiwyg.html">http://www.skillcrush.com/terms/wysiwyg.html</a>
-<a href="http://www.skillcrush.com/terms/api.html">http://www.skillcrush.com/terms/api.html</a>
-<a href="http://www.skillcrush.com/terms/ipaddress.html">http://www.skillcrush.com/terms/ipaddress.html</a>
-<a href="http://www.skillcrush.com/terms/web-server.html">http://www.skillcrush.com/terms/web-server.html</a>
-<a href="http://www.skillcrush.com/terms/bugs.html">http://www.skillcrush.com/terms/bugs.html</a>
-<a href="http://www.skillcrush.com/terms/dns.html">http://www.skillcrush.com/terms/dns.html</a>
-<a href="http://www.skillcrush.com/terms/cloud.html">http://www.skillcrush.com/terms/cloud.html</a>
-<a href="http://www.skillcrush.com/terms/domain.html">http://www.skillcrush.com/terms/domain.html</a> 
-<a href="http://www.skillcrush.com/terms/command-line.html">http://www.skillcrush.com/terms/command-line.html</a>
-<a href="http://www.skillcrush.com/terms/version-control.html">http://www.skillcrush.com/terms/version-control.html</a>
-<a href="http://www.skillcrush.com/terms/grid-systems.html">http://www.skillcrush.com/terms/grid-systems.html</a>
-<a href="http://www.skillcrush.com/terms/c-languages.htmll">http://www.skillcrush.com/terms/c-languages.htmll</a>
-<a href="http://www.skillcrush.com/terms/rails.html">http://www.skillcrush.com/terms/rails.html</a>
-<a href="http://www.skillcrush.com/terms/version-control.html">http://www.skillcrush.com/terms/version-control.html</a>
-<a href="http://www.skillcrush.com/terms/cookies.html">http://www.skillcrush.com/terms/cookies.html</a>
-<a href="http://www.skillcrush.com/terms/404-error.html">http://www.skillcrush.com/terms/404-error.html</a>
-<a href="http://www.skillcrush.com/terms/responsive-design.html">http://www.skillcrush.com/terms/responsive-design.html</a>
-<a href="http://www.skillcrush.com/terms/seo.html">http://www.skillcrush.com/terms/seo.html</a>
-<a href="http://www.skillcrush.com/terms/hexidecimal.html">http://www.skillcrush.com/terms/hexidecimal.html</a>
-<a href="http://www.skillcrush.com/terms/ruby.html">http://www.skillcrush.com/terms/ruby.html</a>
-<a href="http://www.skillcrush.com/terms/cms.html">http://www.skillcrush.com/terms/cms.html</a>
-<a href="http://www.skillcrush.com/terms/pseudocode.html">http://www.skillcrush.com/terms/pseudocode.html</a>
-<a href="http://www.skillcrush.com/terms/https.html">http://www.skillcrush.com/terms/https.html</a>
-<a href="http://www.skillcrush.com/terms/open-source.html">http://www.skillcrush.com/terms/open-source.html</a>
-<a href="http://www.skillcrush.com/terms/ajax.html">http://www.skillcrush.com/terms/ajax.html</a>
-<a href="http://www.skillcrush.com/terms/frontendbackend.html">http://www.skillcrush.com/terms/frontendbackend.html</a>
-<a href="http://www.skillcrush.com/terms/javascript.html">http://www.skillcrush.com/terms/javascript.html</a>
-<a href="http://www.skillcrush.com/terms/programming-languages.html">http://www.skillcrush.com/terms/programming-languages.html</a>
-<a href="http://www.skillcrush.com/terms/database.html">http://www.skillcrush.com/terms/database.html</a>
-<a href="http://www.skillcrush.com/terms/css.html">http://www.skillcrush.com/terms/css.html</a>
-<a href="http://www.skillcrush.com/terms/html.html">http://www.skillcrush.com/terms/html.html</a></p>
-
-<p>COMMAND-LINE INTERFACE</p>
-
-<p>Familiarity with a shell environment is crucial to being a functional developer. There are no good interactive tutorials for command lines, so you will have to complete the following reading:</p>
-
-<p>Learn the Command Line the Hard Way: 3 Hours
-<a href="http://cli.learncodethehardway.org/book/">http://cli.learncodethehardway.org/book/</a></p>
-
-<p>Command Line Basics: .5 Hours
-<a href="http://blog.teamtreehouse.com/command-line-basics">http://blog.teamtreehouse.com/command-line-basics</a></p>
-
-<p>Bash Basics: .5 Hours
-<a href="https://gist.github.com/a8a7ca963e37e0b108b9">https://gist.github.com/a8a7ca963e37e0b108b9</a></p>
-
-<p>SQL &amp; DATABASES</p>
-
-<p>This section is all about understanding what databases are and how to query them for data.</p>
-
-<p>Learn SQL the Hardway: 4 Hours
-<a href="http://sql.learncodethehardway.org/book/">http://sql.learncodethehardway.org/book/</a> </p>
-
-<p>Google’s MySQL Tutorial: 2 Hours
-<a href="http://code.google.com/edu/tools101/mysql.html">http://code.google.com/edu/tools101/mysql.html</a> </p>
-
-<p>HTML</p>
-
-<p>The source of all content on the web, HTML is a crucial markup syntax to understand. We will be covering very little HTML through the course and I seriously expect you to know what the basic tags are and when to use them.</p>
-
-<p>HTML &amp; CSS Tutorial: 3 Hours 
-This is a beautiful guide that I recommend everyone read through as quickly as possible. Don’t worry if you don’t fully grok this, the Treehouse unit below covers all this through videos and tests.
-<a href="http://learn.shayhowe.com/html-css/">http://learn.shayhowe.com/html-css/</a></p>
-
-<p>Treehouse HTML Basics: 6 Hours
-<a href="http://teamtreehouse.com/library/websites/html">http://teamtreehouse.com/library/websites/html</a></p>
-
-<p>Advanced HTML5 &amp; CSS3: 6 Hours (optional)
-If you are familiar with HTML &amp; CSS already and were able to complete the Treehouse unit pretty easily, I recommend you try this unit. Especially if you are into aesthetics and advanced behaviors as it covers some amazing features of HTML &amp; CSS.
-<a href="http://www.codeschool.com/courses/functional-html5-css3">http://www.codeschool.com/courses/functional-html5-css3</a></p>
-
-<p>CSS</p>
-
-<p>While HTML tells the browser what different parts of the page are, CSS says what those pieces should look like.</p>
-
-<p>CSS Foundations: 6 Hours
-<a href="http://teamtreehouse.com/library/websites/css-foundations">http://teamtreehouse.com/library/websites/css-foundations</a></p>
-
-<p>CSS Cross Country: 4 Hours
-<a href="http://www.codeschool.com/courses/css-cross-country">http://www.codeschool.com/courses/css-cross-country</a></p>
-
-<p>CSS3 on Treehouse: 4 Hours (optional)
-<a href="http://teamtreehouse.com/library/websites/css3">http://teamtreehouse.com/library/websites/css3</a></p>
-
-<p>Responsive Websites: 4 Hours (very optional)
-<a href="http://teamtreehouse.com/library/websites/build-a-responsive-website/">http://teamtreehouse.com/library/websites/build-a-responsive-website/</a></p>
-
-<p>GIT: VERSION CONTROL</p>
-
-<p>Try Git: 1 Hour
-<a href="http://www.codeschool.com/courses/try-git">http://www.codeschool.com/courses/try-git</a></p>
-
-<p>Git Real: 4 Hours
-<a href="http://www.codeschool.com/courses/git-real">http://www.codeschool.com/courses/git-real</a></p>
-
-<p>Extra Reading Material
-<a href="http://git-scm.com/book">http://git-scm.com/book</a>
-<a href="http://git-scm.com/video/what-is-version-control">http://git-scm.com/video/what-is-version-control</a></p>
-
-<p>PROGRAMMING BASICS</p>
-
-<p>Certain aspects of coding are fundamental, learn them through javascript and ruby.</p>
-
-<p>Try Ruby: 1 Hour
-<a href="http://www.codeschool.com/courses/try-ruby">http://www.codeschool.com/courses/try-ruby</a></p>
-
-<p>Introduction to Programming: 4 Hours
-<a href="http://teamtreehouse.com/library/programming-2/introduction-to-programming">http://teamtreehouse.com/library/programming-2/introduction-to-programming</a></p>
-
-<p>JAVASCRIPT</p>
-
-<p>Javascript Foundations: 6 Hours
-<a href="http://teamtreehouse.com/library/websites/javascript-foundations">http://teamtreehouse.com/library/websites/javascript-foundations</a></p>
-
-<p>jQuery Air First Flight: 6 Hours
-<a href="http://www.codeschool.com/courses/jquery-air-first-flight">http://www.codeschool.com/courses/jquery-air-first-flight</a></p>
-
-<p>jQuery Air Captain’s Log: 6 Hours (optional)
-<a href="http://www.codeschool.com/courses/jquery-air-captains-log">http://www.codeschool.com/courses/jquery-air-captains-log</a></p>
-
-<p>RUBY</p>
-
-<p>The best language ever created, trust me.</p>
-
-<p>Ruby Foundations: 10 Hours
-<a href="http://teamtreehouse.com/library/programming-2/ruby-foundations">http://teamtreehouse.com/library/programming-2/ruby-foundations</a></p>
-
-<p>Ruby Bits: 4 Hours
-<a href="http://www.codeschool.com/courses/ruby-bits">http://www.codeschool.com/courses/ruby-bits</a></p>
-
-<p>RAILS</p>
-
-<p>Our web framework of choice.</p>
-
-<p>Rails for Zombies: 4 Hours
-<a href="http://www.codeschool.com/courses/rails-for-zombies-redux">http://www.codeschool.com/courses/rails-for-zombies-redux</a></p>
-
-<p>Rails for Zombies 2: 4 Hours
-<a href="http://www.codeschool.com/courses/rails-for-zombies-2">http://www.codeschool.com/courses/rails-for-zombies-2</a></p>
-
-<p>SAMPLE APPLICATION</p>
-
-<p>Building Facebook: 12 Hours
-<a href="http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook">http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook</a></p>
-
-<p>ADVANCED</p>
-
-<p>All this unit is optional</p>
-
-<p>Testing with RSpec
-<a href="http://www.codeschool.com/courses/testing-with-rspec">http://www.codeschool.com/courses/testing-with-rspec</a></p>
-
-<p>Rails Testing for Zombies
-<a href="http://www.codeschool.com/courses/rails-testing-for-zombies">http://www.codeschool.com/courses/rails-testing-for-zombies</a></p>
-
-<p>Rails Best Practices
-<a href="http://www.codeschool.com/courses/rails-best-practices">http://www.codeschool.com/courses/rails-best-practices</a></p>
-      </section>
+              <div id="internet-history">
+                <h2 class="page-header">Internet Basics</h2>
+                <p>In this document you’re going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundementals and abstractions. Enjoy.</p>
+                <h3>What problem does it solve?</h3>
+                <p>It provides an easy way to interact with requests before and after they are processed. But it's primary value add is that it's a hybrid buffered, streaming middleware kernel that isn't coupled with any other software.</p>
+                <h3>Integration with Flatiron</h3>
+                <p>By using <code>flatiron.plugins.http</code> you can configure and control a union server. The middleware used by union are compatible with <a href="http://expressjs.com">express</a> and <a href="http://senchalabs.org/connect">connect</a>.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
       <footer>
-        <p>This project is maintained by <a href="https://github.com/flatiron-school">flatiron-school</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        Copyright &copy; 2012, Pavan Kumar Sunkara
       </footer>
     </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-33578770-7");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-
   </body>
 </html>
