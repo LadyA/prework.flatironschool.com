@@ -19,75 +19,91 @@
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
-    <link rel="shortcut icon" href="">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="">
-    <link rel="apple-touch-icon-precomposed" href="">
+
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".sidebar-nav" data-offset="40">
 
-
-    <div class="span3 fixed" style="top: 20px; position: fixed">
-      <div class="well sidebar-nav">
-        <h1>Flatiron School's Prework</h1>
-        <ul class="nav nav-list">
-          <li class="nav-header">Contents</li>
-          <li><a href="#overview">Overview</a></li>
-          <li class="nav-header">Internet Basics</li>
-          <li><a href="#internet-history">History</a></li>
-          <li><a href="#">The Command Line</a></li>
-          <li><a href="#">SQL & Databases</a></li>
-          <li><a href="#">HTML</a></li>
-          <li><a href="#">CSS</a></li>
-          <li><a href="#">GIT</a></li>
-          <li class="nav-header">Programming</li>
-          <li><a href="#">Basics</a></li>
-          <li><a href="#">Javascript</a></li>
-          <li><a href="#">Ruby</a></li>
-          <li><a href="#">Rails</a></li>
-          <li class="nav-header">Advanced</li>
-          <li><a href="#">Testing</a></li>
-          <li><a href="#">Best Practices</a></li>
-          <li class="nav-header">About</li>
-          <li><a href="#">Credits</a></li>
-          <li><a href="#">Contributing</a></li>
-        </ul>
-      </div>
+  <div class="span3 fixed sidebar-nav nav" style="top: 20px; position: fixed">
+    <div class="well ">
+      <h1>Flatiron School's Prework</h1>
+      <ul class="nav nav-list sidebar-nav">
+        <li class="nav-header">Contents</li>
+        <li><a href="#overview">Overview</a></li>
+        <li class="nav-header">Internet Basics</li>
+        <li><a href="#the-web">The Web</a></li>
+        <li><a href="#">The Command Line</a></li>
+        <li><a href="#">SQL & Databases</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">GIT</a></li>
+        <li class="nav-header">Programming</li>
+        <li><a href="#">Basics</a></li>
+        <li><a href="#">Javascript</a></li>
+        <li><a href="#">Ruby</a></li>
+        <li><a href="#">Rails</a></li>
+        <li class="nav-header">Advanced</li>
+        <li><a href="#">Testing</a></li>
+        <li><a href="#">Best Practices</a></li>
+        <li class="nav-header">About</li>
+        <li><a href="#">Credits</a></li>
+        <li><a href="#">Contributing</a></li>
+      </ul>
     </div>
+  </div>
 
-    <div class="container-fluid" style="margin-left: 300px">
-      <div class="row-fluid">
+  <div class="container-fluid" style="margin-left: 300px">
+    <div class="row-fluid">
+      <div class="span9" id="content">
+        <div class="row-fluid">
+          <div class="document">
+            <div id="overview"></div>
+              <h2 class="page-header">Overview</h2>
 
-        <div class="span8" id="content" data-spy="scroll" data-target=".nav-list">
-          <div class="row-fluid">
-            <div class="span12 document">
-              <div id="overview">
-                <h2 class="page-header">Overview</h2>
-                <p>In this document you’re going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundementals and abstractions. Enjoy.</p>
-                <h3>What problem does it solve?</h3>
-                <p>It provides an easy way to interact with requests before and after they are processed. But it's primary value add is that it's a hybrid buffered, streaming middleware kernel that isn't coupled with any other software.</p>
-                <h3>Integration with Flatiron</h3>
-                <p>By using <code>flatiron.plugins.http</code> you can configure and control a union server. The middleware used by union are compatible with <a href="http://expressjs.com">express</a> and <a href="http://senchalabs.org/connect">connect</a>.</p>
-              </div>
+              <p>In this document you're going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundamentals and abstractions. Enjoy.</p>
+
+              <p>The main topics we want you to know about before the semester starts are on the right: Internet Basics, Command-Line Interface, Git Version Control, SQL and Databases, HTML, CSS, Javascript and jQuery, Ruby, and Ruby on Rails.</p>
+
+              <p>Each resource has an estimated amount of time it should take you if you have 0 prior knowledge on the topic. In total, if you are coming to this with absolutely no experience, as in, you'd have trouble articulating what the topic even is, then I estimate this work will take you between 80 - 100 hours to complete. If you are a rockstar, this shouldn't take more than a 6-10 hours. Most of you are somewhere in between.</p>
+
+              <p>If you are familiar with the topic, I highly suggest trying to take the quiz or challenge first. If you pass easily and collect the badge, great, move on. That being said, even I found myself learning new things during this assessment, so maybe try to watch the videos on the topics with which you are most unfamiliar.</p>
+
+              <p>In terms of reading and watching videos, feel free to skip through - go for overall coverage as opposed to depth - try to read and watch as much as possible and then try to take the quiz. Be quick, and then do a 2nd round of reading and watching.</p>
+
+              <p>The purpose of this assessment is simply to see where we all stand and give you all a chance to get caught up on some basic skills. Good luck!</p>
+
+            </div>
 
 
 
-              <div id="internet-history">
-                <h2 class="page-header">Internet Basics</h2>
-                <p>In this document you’re going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundementals and abstractions. Enjoy.</p>
-                <h3>What problem does it solve?</h3>
-                <p>It provides an easy way to interact with requests before and after they are processed. But it's primary value add is that it's a hybrid buffered, streaming middleware kernel that isn't coupled with any other software.</p>
-                <h3>Integration with Flatiron</h3>
-                <p>By using <code>flatiron.plugins.http</code> you can configure and control a union server. The middleware used by union are compatible with <a href="http://expressjs.com">express</a> and <a href="http://senchalabs.org/connect">connect</a>.</p>
-              </div>
+            <div>
+              <h2 class="page-header">Internet Basics</h2>
+
+              <p>The goal of this section is for you to understanding the basics of the web. What web servers are, how code is interpreted, basic things like that.</p>
+
+              <h3 id="the-web"><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">Website Basics</a>: 1.5 Hours</h3>
+
+              <p><code><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">http://teamtreehouse.com/library/websites/website-basics/website-basics</a></code></p>
+
+              <p>Beyond HTML and CSS, there are several basic technology skills that every web professional should know. Some of these include uploading files to the web via FTP or purchasing domains and hosting.</p>
+
+              <h3><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">Graphic Basics</a>: 2 Hour</h3>
+
+              <p><code><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics</a></code></p>
+
+              <p>Graphic basics is for developers and designers alike, to become familiar with the difference between vector and raster, units and increments and saving for the web</p>
+
+
             </div>
           </div>
         </div>
       </div>
+
       <hr>
       <footer>
         Copyright &copy; 2012, Pavan Kumar Sunkara
       </footer>
     </div>
-  </body>
+
+  </div>
+</body>
 </html>
