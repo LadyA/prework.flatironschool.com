@@ -23,9 +23,9 @@
   </head>
   <body data-spy="scroll" data-target=".sidebar-nav" data-offset="40">
 
-  <div class="span3 fixed sidebar-nav nav" style="top: 20px; position: fixed">
-    <div class="well ">
-      <h1>Flatiron School's Prework</h1>
+  <div class="fixed sidebar-nav nav">
+    <div class="well">
+      <h1>Flatiron School Prework</h1>
       <ul class="nav nav-list sidebar-nav">
         <li class="nav-header">Contents</li>
         <li><a href="#overview">Overview</a></li>
@@ -45,7 +45,7 @@
         <li><a href="#testing">Testing</a></li>
         <li><a href="#best-practices">Best Practices</a></li>
         <li class="nav-header">About</li>
-        <li><a href="#credit">Credits</a></li>
+        <li><a href="#credits">Credits</a></li>
         <li><a href="#contributing">Contributing</a></li>
       </ul>
     </div>
@@ -56,8 +56,8 @@
       <div class="span9" id="content">
         <div class="row-fluid">
           <div class="document">
-            <div id="overview">
-              <h2 class="page-header">Overview</h2>
+            <section id="overview">
+              <h2 class="page-header first">Overview</h2>
 
               <p>In this document you're going to find a ton of reading, videos, and quizzes that Flatiron students complete before their semester even begins. We thought we'd open source this material. We suggest going through this material linearly because it really represents a progressive journey through fundamentals and abstractions. Enjoy.</p>
 
@@ -70,46 +70,35 @@
               <p>In terms of reading and watching videos, feel free to skip through - go for overall coverage as opposed to depth - try to read and watch as much as possible and then try to take the quiz. Be quick, and then do a 2nd round of reading and watching.</p>
 
               <p>The purpose of this assessment is simply to see where we all stand and give you all a chance to get caught up on some basic skills. Good luck!</p>
-            </div>
+            </section>
 
-            <div id="internet-basics">
+            <section id="internet-basics">
               <h2 class="page-header">Internet Basics</h2>
 
-              <h2 id="the-web">The Web</h3>
+              <h2 id="the-web" class="first">The Web</h3>
 
-              <p>The goal of this section is for you to understanding the basics of the web. What web servers are, how code is interpreted, basic things like that.</p>
+              <p>The goal of this section is for you to understand the basics of the web. What web servers are, how code is interpreted, basic things like that.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">Website Basics</a>: 1.5 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">Website Basics:</a> 1.5 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/website-basics/website-basics">http://teamtreehouse.com/library/websites/website-basics/website-basics</a></code></p>
 
               <p>Beyond HTML and CSS, there are several basic technology skills that every web professional should know. Some of these include uploading files to the web via FTP or purchasing domains and hosting.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">Graphic Basics</a>: 2 Hour</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">Graphic Basics:</a> 2 Hour</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics">http://teamtreehouse.com/library/websites/technology-foundations/graphic-basics</a></code></p>
 
-              <p>Graphic basics is for developers and designers alike, to become familiar with the difference between vector and raster, units and increments and saving for the web</p>
+              <p>Graphic basics is for developers and designers alike, to become familiar with the difference between vector and raster, units and increments and saving for the web.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">Aesthetic Foundations</a>: 2.5 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">Aesthetic Foundations:</a> 2.5 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/aesthetic-foundations">http://teamtreehouse.com/library/websites/aesthetic-foundations</a></code></p>
 
               <p>Aesthetic Foundations will cover the elements and principles of art, along with color theory. This basic knowledge will provide a design language that enables more effective communication amongst designers and other team members.</p>
 
               <h2 id="terms">Term Definitions</h3>
-              <style>
-              dd {
-                float: left;
-                clear: both;
-                width: 18%;
-                text-align: right;
-              }
-              dt {
-                float: right;
-                width: 78%;
-              }
-              </style>
+
               <p>
                 <dl>
                   <dd><a href="http://www.skillcrush.com/terms/domain.html">Domain</a></dd>
@@ -122,7 +111,7 @@
                   <dt><p>We're building programs that can talk to other programs. Their APIs are their languages. Sort of.</p></dt>
 
                   <dd><a href="http://www.skillcrush.com/terms/wysiwyg.html">WYSIWYG</a></dd>
-                  <dt><p>You can't always get what you want, but sometimes, What You See Is What You Get</p></dt>
+                  <dt><p>You can't always get what you want, but sometimes, What You See Is What You Get.</p></dt>
 
                   <dd><a href="http://www.skillcrush.com/terms/ipaddress.html">IP Address</a></dd>
                   <dt><p>There's no place like 127.0.0.1, there's no place like 0.0.0.0, there's no place like localhost.</p></dt>
@@ -146,7 +135,7 @@
                   <dt><p>Rule 1. Never lose code. Rule 2. Never lose code.</p></dt>
 
                   <dd><a href="http://www.skillcrush.com/terms/grid-systems.html">Grid Systems</a></dd>
-                  <dt><p>Just because we're not designers doesn't mean we should appreciate and respect their grids.</p></dt>
+                  <dt><p>Just because we're not designers doesn't mean we shouldn't appreciate and respect their grids.</p></dt>
 
                   <dd><a href="http://www.skillcrush.com/terms/rails.html">Rails</a></dd>
                   <dt><p>Not liking Ruby on Rails is like not liking parfait.</p></dt>
@@ -205,21 +194,21 @@
               </p>
 
 
-              <h2 id="command-line" style="clear:both">The Command Line</h2>
+              <h2 id="command-line" class="command-line">The Command Line</h2>
 
               <p>Familiarity with a shell environment is crucial to being a functional developer. There are no good interactive tutorials for command lines, so complete the following reading.</p>
 
-              <h3><a href="http://cli.learncodethehardway.org/book/">Learn the Command Line the Hard Way</a>: 3 Hours</h3>
+              <h3><a href="http://cli.learncodethehardway.org/book/">Learn the Command Line the Hard Way:</a> 3 Hours</h3>
 
               <p><code><a href="http://cli.learncodethehardway.org/book/">http://cli.learncodethehardway.org/book/</a></code></p>
 
               <p>The venerable <a href="http://programming-motherfucker.com/">Zed Shaw</a> gives us a short book about your shell.</p>
 
-              <h3><a href="http://cli.learncodethehardway.org/book/">Command Line Basics</a>: 0.5 Hours</h3>
+              <h3><a href="http://cli.learncodethehardway.org/book/">Command Line Basics:</a> 0.5 Hours</h3>
 
               <p><code><a href="http://blog.teamtreehouse.com/command-line-basics">http://blog.teamtreehouse.com/command-line-basics</a></code></p>
 
-              <h3><a href="https://gist.github.com/a8a7ca963e37e0b108b9">Bash Basics</a>: 0.5 Hours</h3>
+              <h3><a href="https://gist.github.com/a8a7ca963e37e0b108b9">Bash Basics:</a> 0.5 Hours</h3>
 
               <p><code><a href="https://gist.github.com/a8a7ca963e37e0b108b9">https://gist.github.com/a8a7ca963e37e0b108b9</a></code></p>
 
@@ -227,11 +216,11 @@
 
               <p>This section is all about understanding what databases are and how to query them for data.</p>
 
-              <h3><a href="http://sql.learncodethehardway.org/book/">Learn SQL the Hardway</a>: 4 Hours</h3>
+              <h3><a href="http://sql.learncodethehardway.org/book/">Learn SQL the Hardway:</a> 4 Hours</h3>
 
               <p><code><a href="http://sql.learncodethehardway.org/book/">http://sql.learncodethehardway.org/book/</a></code></p>
 
-              <h3><a href="http://code.google.com/edu/tools101/mysql.html">Google's MySQL Tutorial</a>: 2 Hours</h3>
+              <h3><a href="http://code.google.com/edu/tools101/mysql.html">Google's MySQL Tutorial:</a> 2 Hours</h3>
 
               <p><code><a href="http://code.google.com/edu/tools101/mysql.html">http://code.google.com/edu/tools101/mysql.html</a></code></p>
 
@@ -239,19 +228,19 @@
 
               <p>The source of all content on the web, HTML is a crucial markup syntax to understand. We will be covering very little HTML through the course and I seriously expect you to know what the basic tags are and when to use them.</p>
 
-              <h3><a href="http://learn.shayhowe.com/html-css/">HTML & CSS Tutorial</a>: 2 Hours</h3>
+              <h3><a href="http://learn.shayhowe.com/html-css/">HTML & CSS Tutorial:</a> 2 Hours</h3>
 
               <p><code><a href="http://learn.shayhowe.com/html-css/">http://learn.shayhowe.com/html-css/</a></code></p>
 
               <p>This is a beautiful guide that I recommend everyone read through as quickly as possible. Don't worry if you don't fully grok this, the Treehouse unit below covers all this through videos and tests.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/html">Treehouse HTML Basics</a>: 6 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/html">Treehouse HTML Basics:</a> 6 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/html">http://teamtreehouse.com/library/websites/html</a></code></p>
 
               <p>This HTML tutorial helps you master HTML. Mastering HTML and its many elements is critical for any type of web professional. HTML or "Hyper Text Markup Language" describes the basic structure and content of a web page.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/functional-html5-css3">Advanced HTML5 & CSS3</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/functional-html5-css3">Advanced HTML5 & CSS3:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/functional-html5-css3">http://www.codeschool.com/courses/functional-html5-css3</a></code></p>
 
@@ -260,31 +249,31 @@
               <h2 id="css">Cascading Style Sheets</h2>
               <p>While HTML tells the browser what different parts of the page are, CSS says what those pieces should look like.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/css-foundations">CSS Foundations</a>: 6 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/css-foundations">CSS Foundations:</a> 6 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/css-foundations">http://teamtreehouse.com/library/websites/css-foundations</a></code></p>
 
               <p>Cascading Style Sheets (CSS) is a language used to describe the visual look of a web page. Using CSS, it is possible to change colors, margin, padding, fonts, and much more.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/css-cross-country">CSS Foundations</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/css-cross-country">CSS Foundations:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/css-cross-country">http://teamtreehouse.com/library/websites/css-foundations</a></code></p>
 
               <p>A beautiful and interactive tutorial from the amazing people at CodeSchool.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/css-cross-country">CSS Foundations</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/css-cross-country">CSS Foundations:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/css-cross-country">http://teamtreehouse.com/library/websites/css-foundations</a></code></p>
 
               <p>A beautiful and interactive tutorial from the amazing people at CodeSchool.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/css3">CSS3 on Treehouse</a>: 4 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/css3">CSS3 on Treehouse:</a> 4 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/css3">http://teamtreehouse.com/library/websites/css3</a></code></p>
 
               <p>CSS3 (Cascading Style Sheets 3) is a superset of CSS that adds many new constructs and properties. Support for CSS3 is rapidly improving across all major browsers, making it a critical piece of technology for modern web professionals.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/build-a-responsive-website/">Responsive Websites</a>: 4 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/build-a-responsive-website/">Responsive Websites:</a> 4 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/css3">http://teamtreehouse.com/library/websites/build-a-responsive-website/</a></code></p>
 
@@ -294,51 +283,51 @@
 
               <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/try-git">Try Git</a>: 1 Hour</h3>
+              <h3><a href="http://www.codeschool.com/courses/try-git">Try Git:</a> 1 Hour</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/try-git">http://www.codeschool.com/courses/try-git</a></code></p>
 
               <p>Get an introduction to the basic concepts of Git version control.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/git-real">Git Real</a>: 4 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/git-real">Git Real:</a> 4 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/git-real">http://www.codeschool.com/courses/git-real</a></code></p>
 
-              <p>A more advanced introduction to the core of version control with Git</p>
+              <p>A more advanced introduction to the core of version control with Git.</p>
 
-              <h3><a href="http://gitimmersion.com/">Git Immersion</a>: 3 Hours</h3>
+              <h3><a href="http://gitimmersion.com/">Git Immersion:</a> 3 Hours</h3>
 
               <p><code><a href="http://gitimmersion.com/">http://gitimmersion.com/</a></code></p>
 
               <p>Git Immersion is a guided tour that walks through the fundamentals of Git, inspired by the premise that to know a thing is to do it.</p>
 
-              <h3><a href="http://git-scm.com/book">The Git Book</a>: 6 Hours</h3>
+              <h3><a href="http://git-scm.com/book">The Git Book:</a> 6 Hours</h3>
 
               <p><code><a href="http://git-scm.com/book">http://git-scm.com/book</a></code></p>
 
               <p>The entire Pro Git book, written by Scott Chacon and published by Apress, is available here.</p>
 
-              <h3><a href="http://git-scm.com/videos">Git Videos</a>: 1 Hours</h3>
+              <h3><a href="http://git-scm.com/videos">Git Videos:</a> 1 Hours</h3>
 
               <p><code><a href="http://git-scm.com/videos">http://git-scm.com/videos</a></code></p>
 
               <p>Four videos covering some basics from the creators and maintainers of Git.</p>
-            </div>
+            </section>
 
-            <div id="programming">
+            <section id="programming">
               <h2 class="page-header">Programming</h2>
 
-              <h2 id="basics">Basics</h2>
+              <h2 id="basics" class="first">Basics</h2>
 
               <p>Certain aspects of coding are fundamental, learn them through javascript and ruby.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/try-ruby">Try Ruby</a>: 1 Hour</h3>
+              <h3><a href="http://www.codeschool.com/courses/try-ruby">Try Ruby:</a> 1 Hour</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/try-ruby">http://www.codeschool.com/courses/try-ruby</a></code></p>
 
-              <p>Ruby is a programming language from Japan (available at ruby-lang.org) which is revolutionizing the web. The beauty of Ruby is found in its balance between simplicity and power. This interactive tutorial is maintained by CodeSchool but was originally by the legend _why_the_lucky_stiff.</p>
+              <p>Ruby is a programming language from Japan (available at ruby-lang.org) which is revolutionizing the web. The beauty of Ruby is found in its balance between simplicity and power. This interactive tutorial is maintained by CodeSchool but was originally by the legend <a href="http://www.slate.com/articles/technology/technology/2012/03/ruby_ruby_on_rails_and__why_the_disappearance_of_one_of_the_world_s_most_beloved_computer_programmers_.html">_why_the_lucky_stiff</a>.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/programming-2/introduction-to-programming">Introduction to Programming</a>: 4 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/programming-2/introduction-to-programming">Introduction to Programming:</a> 4 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/programming-2/introduction-to-programming">http://teamtreehouse.com/library/programming-2/introduction-to-programming</a></code></p>
 
@@ -346,19 +335,19 @@
 
               <h2 id="javascript">Javascript</h2>
 
-              <h3><a href="http://teamtreehouse.com/library/websites/javascript-foundations">Javascript Foundations</a>: 6 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/websites/javascript-foundations">Javascript Foundations:</a> 6 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/websites/javascript-foundations">http://teamtreehouse.com/library/websites/javascript-foundations</a></code></p>
 
               <p>Learn the fundamentals to the JavaScript Language. JavaScript is the key to programming in the browser, mastering jQuery, and building apps with Node.js. You will learn how to program effectively in JavaScript, the different types, functions, and techniques for writing solid JavaScript. You will benefit from taking Introduction to Programming if you don't have much experience with programming.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/jquery-air-first-flight">jQuery Air, First Flight</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/jquery-air-first-flight">jQuery Air, First Flight:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/jquery-air-first-flight">http://www.codeschool.com/courses/jquery-air-first-flight</a></code></p>
 
               <p>Simplify web development with the amazing javascript library jQuery, in use by over 220 million websites.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/jquery-air-captains-log">jQuery Air, Captain's Log</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/jquery-air-captains-log">jQuery Air, Captain's Log:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/jquery-air-captains-log">http://www.codeschool.com/courses/jquery-air-captains-log</a></code></p>
 
@@ -366,8 +355,7 @@
 
               <h2 id="ruby">Ruby</h2>
 
-              <quote style="float: right; width: 96%; border-left: 6px #073642 solid; padding-left: 12px; padding-top: 4px">
-
+              <quote>
                 <p>My conscience won’t let me call Ruby a computer language. That would imply that the language works primarily on the computer’s terms. That the language is designed to accomodate the computer, first and foremost. That therefore, we, the coders, are foreigners, seeking citizenship in the computer’s locale. It’s the computer’s language and we are translators for the world.</p>
                 <p>But what do you call the language when your brain begins to think in that language? When you start to use the language’s own words and colloquialisms to express yourself. Say, the computer can’t do that. How can it be the computer’s language? It is ours, we speak it natively!</p>
                 <p>We can no longer truthfully call it a computer language. It is coderspeak. It is the language of our thoughts.</p>
@@ -375,19 +363,19 @@
                 <cite><a href="http://mislav.uniqpath.com/poignant-guide/">_why's poignant guide to ruby</a></cite>
               </quote>
 
-              <h3 style="clear: both"><a href="http://pine.fm/LearnToProgram/">Learn to Program</a>: 10 Hours</h3>
+              <h3 class="clear"><a href="http://pine.fm/LearnToProgram/">Learn to Program:</a> 10 Hours</h3>
 
               <p><code><a href="http://pine.fm/LearnToProgram/">http://pine.fm/LearnToProgram/</a></code></p>
 
               <p>Chris Pine's Learn to Program is a classic book that is mostly available online for free. Read it all. Then buy it and read it again.</p>
 
-              <h3 style="clear: both"><a href="http://teamtreehouse.com/library/programming-2/ruby-foundations">Ruby Foundations</a>: 10 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/programming-2/ruby-foundations">Ruby Foundations:</a> 10 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/programming-2/ruby-foundations">http://teamtreehouse.com/library/programming-2/ruby-foundations</a></code></p>
 
               <p>Learn the fundamentals to become a Ruby and Rails developer. You'll learn things like what Ruby is, how to write object oriented Ruby, classes and modules, programming structures and types, and more. There are no requirements for this course other than a web browser and willingness to learn.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/ruby-bits">Ruby Bits</a>: 6 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/ruby-bits">Ruby Bits:</a> 6 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/ruby-bits">http://www.codeschool.com/courses/ruby-bits</a></code></p>
 
@@ -395,7 +383,7 @@
 
               <h2 id="rails">Rails</h2>
 
-              <h3><a href="http://guides.rubyonrails.org/getting_started.html">Getting Started with Rails Guide</a>: 2 Hours</h3>
+              <h3><a href="http://guides.rubyonrails.org/getting_started.html">Getting Started with Rails Guide:</a> 2 Hours</h3>
 
               <p><code><a href="http://guides.rubyonrails.org/getting_started.html">http://guides.rubyonrails.org/getting_started.html</a></code></p>
 
@@ -404,31 +392,32 @@
                 <ul>
                   <li>Installing Rails, creating a new Rails application, and connecting your application to a database.</li>
                   <li>The general layout of a Rails application.</li>
-                  <li>The basic principles of MVC (Model, View Controller) and RESTful design</li>
-                  <li>How to quickly generate the starting pieces of a Rails application</li>
+                  <li>The basic principles of MVC (Model, View Controller) and RESTful design.</li>
+                  <li>How to quickly generate the starting pieces of a Rails application.</li>
                 </ul>
+
               </p>
 
-              <h3><a href="http://www.codeschool.com/courses/rails-for-zombies-redux">Rails for Zombies</a>: 4 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/rails-for-zombies-redux">Rails for Zombies:</a> 4 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/rails-for-zombies-redux">http://www.codeschool.com/courses/rails-for-zombies-redux</a></code></p>
 
               <p>Ruby on Rails, the most popular framework in-use by Zombies. That's right, you can basically be brain dead and use Ruby on Rails. No offense to brain dead people or zombies.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/rails-for-zombies-2">Rails for Zombies 2</a>: 4 Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/rails-for-zombies-2">Rails for Zombies 2:</a> 4 Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/rails-for-zombies-2">http://www.codeschool.com/courses/rails-for-zombies-2</a></code></p>
 
               <p>In part 2 of Rails for Zombies, you learn even more about how to use this amazing framework as the undead.</p>
 
-              <h3><a href="http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook">Building Facebook</a>: 12 Hours</h3>
+              <h3><a href="http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook">Building Facebook:</a> 12 Hours</h3>
 
               <p><code><a href="http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook">http://teamtreehouse.com/library/programming-2/build-a-simple-version-of-facebook</a></code></p>
 
               <p>That's right, in theory, if you've gotten this far, you are ready to make a billion dollars and build a simple version of Facebook!</p>
-            </div>
+            </section>
 
-            <div id="advanced">
+            <section id="advanced">
               <h2 class='page-header'>Advanced Topics</h2>
               <p>
                 At this point in the prework it's time to go from Rubywan to Ruby Knight. You'll be covering abstract concepts like testing and idioms, paradigms, and best practices. Do the best you can, enjoy.
@@ -436,13 +425,13 @@
 
               <h2 id="testing">Testing</h2>
 
-              <h3><a href="http://www.codeschool.com/courses/testing-with-rspec">Testing with RSpec</a>: ~ Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/testing-with-rspec">Testing with RSpec:</a> ~ Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/testing-with-rspec">http://www.codeschool.com/courses/testing-with-rspec</a></code></p>
 
               <p>Write code that tests your code. If it seems like a post-modern nightmare, that's because it sort of is.</p>
 
-              <h3><a href="http://www.codeschool.com/courses/rails-testing-for-zombies">Rails Testing for Zombies</a>: ~ Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/rails-testing-for-zombies">Rails Testing for Zombies:</a> ~ Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/rails-testing-for-zombies">http://www.codeschool.com/courses/rails-testing-for-zombies</a></code></p>
 
@@ -450,19 +439,34 @@
 
               <h2 id="best-practices">Best Practices</h2>
 
-              <h3><a href="http://www.codeschool.com/courses/rails-best-practices">Rails Best Practices</a>: ~ Hours</h3>
+              <h3><a href="http://www.codeschool.com/courses/rails-best-practices">Rails Best Practices:</a> ~ Hours</h3>
 
               <p><code><a href="http://www.codeschool.com/courses/rails-best-practices">http://www.codeschool.com/courses/rails-best-practices</a></code></p>
 
               <p>"Any fool can write code for machines, it takes a programmer to write code for humans."</p>
 
+            </section>
 
-            </div>
+            <section id="advanced">
+              <h2 class='page-header'>About</h2>
+              <h2 id="credits" class="first">Credits</h2>
+              <p>First, I'd love to thank all the amazing people who created these source materials. Most of it is from CodeSchool and Treehouse, with a bit from Zed Shaw, and some from the people at Skillcrush. Obviously there are a lot more resources out there for learning these topics. This guide is just my current preferences and tries to put them in a linear fashion so skills can build upon each other. Hope it helps someone. Oh and the theme for the site was purchased from <a href="https://wrapbootstrap.com/">WrapBootstrap</a>.</p>
+              <h2 id="contributing">Contributing</h2>
+              <p>Right now the <a href="https://github.com/flatiron-school/prework.flatironschool.com">repository</a> is just a static hardcoded HTML site. I'll be moving it to Jekyll or something shortly so the content is easier to edit. Until then, feel free to fork and add resources, fix typos, whatever. You can also just use <a href="https://github.com/flatiron-school/prework.flatironschool.com/issues">Github issues</a> to suggest other resources, etc.</p>
+            </section>
           </div>
+        </div>
+        <div id="footer">
+          <hr>
+          <footer>
+            Copyright &copy; 2012, Flatiron School
+          </footer>
         </div>
       </div>
     </div>
   </div>
+
+
 
   <script type="text/javascript">
 

@@ -1,11 +1,9 @@
 body { padding-top: 24px; }
 .navbar-search .search-query { height: 28px; }
 footer {text-align: center; margin-bottom: 20px; }
-.document h2.page-header { color: #cb4b16; font-size: 30px;}
-.document h3 { padding: 10px 0; color: #cb4b16; }
 .navbar .brand { font-weight: bold; }
 .document .highlight { padding: 10px 0; }
-.sidebar-nav h1 {font-size: 16px;}
+.sidebar-nav h1 {font-size: 16px; padding: 10px;}
 
 body { color: #839496; background-color: #002b36;}
 body, p, input, select, button, textarea, code, pre, .navbar-search .search-query { font-family: Inconsolata; font-size: 14px; }
@@ -44,3 +42,27 @@ legend, label { color: #93a1a1; }
 .navbar .divider-vertical { background-color: #002b36; border-right: 1px solid #002b36;}
 .well { background-color: #073642; }
 .hero-unit {background-color: #073642; }
+section {margin-top: 100px;}
+.document h2{margin-top: 60px;}
+.document h2.first{margin-top: 0;}
+.document h2.page-header { color: #cb4b16; font-size: 30px;}
+.document h3 { padding: 10px 0; color: #cb4b16; }
+h3.clear {clear: both;}
+#footer{clear: both; height: 600px}
+quote{float: right; width: 96%; border-left: 6px #073642 solid; padding-left: 12px; padding-top: 4px}
+h2.command-line {clear:both; padding-top: 60px}
+dd {
+  float: left;
+  clear: both;
+  width: 18%;
+  text-align: right;
+}
+dt {
+  float: right;
+  width: 78%;
+}
+
+#overview {margin-top: 0}
+div.nav{top: 20px; position: fixed; left: 20px; width: 248px;}
+div.nav div.well {padding: 0}
+ul.nav{padding: 9 19px 19px 19px}
