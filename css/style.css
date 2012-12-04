@@ -3,7 +3,7 @@ body { padding-top: 24px; }
 footer {text-align: center; margin-bottom: 20px; }
 .navbar .brand { font-weight: bold; }
 .document .highlight { padding: 10px 0; }
-.sidebar-nav h1 {font-size: 16px; padding: 10px;}
+.sidebar-nav h1 {font-size: 16px; padding: 10px 10px 2px 10px;}
 
 body { color: #839496; background-color: #002b36;}
 body, p, input, select, button, textarea, code, pre, .navbar-search .search-query { font-family: Inconsolata; font-size: 14px; }
@@ -25,7 +25,7 @@ legend, label { color: #93a1a1; }
 .nav {background-color: #073642; }
 .nav>li>a:hover {background-color: #333333; }
 .nav .nav-header {color: #93a1a1; }
-.nav-list li{line-height: 13px;}
+.nav-list li{line-height: 12px;}
 .nav-list>li>a,.nav-list .nav-header {text-shadow: 0 1px 0 #002b36; }
 .nav-list>.active>a,.nav-list>.active>a:hover { color: #002b36; text-shadow:0 -1px 0 #839496; background-color: #859900;}
 .nav-list .divider { background-color: #586e75; border-bottom:1px solid #002b36; }
@@ -65,4 +65,4 @@ dt {
 #overview {margin-top: 0}
 div.nav{top: 20px; position: fixed; left: 20px; width: 248px;}
 div.nav div.well {padding: 0}
-ul.nav{padding: 4px 19px 19px 19px}
+ul.nav{padding: 2px 19px 19px 19px}
