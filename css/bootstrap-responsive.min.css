@@ -22,9 +22,11 @@
   .hidden-tablet{display:none;}
   .hidden-desktop{display:block;}
   .visible-desktop{display:none;}
-}
+}*/
 @media (max-width:480px){
-  .nav-collapse{-webkit-transform:translate3d(0, 0, 0);}
+  .container-fluid{margin-left:0px;}
+  .hidden-phone{display:none;}
+/*  .nav-collapse{-webkit-transform:translate3d(0, 0, 0);}
   .page-header h1 small{display:block;line-height:18px;}
   input[type="checkbox"],input[type="radio"]{border:1px solid #ccc;}
   .form-horizontal .control-group>label{float:none;width:auto;padding-top:0;text-align:left;}
@@ -34,9 +36,9 @@
   .modal{position:absolute;top:10px;left:10px;right:10px;width:auto;margin:0;}
   .modal.fade.in{top:auto;}
   .modal-header .close{padding:10px;margin:-10px;}
-  .carousel-caption{position:static;}
+  .carousel-caption{position:static;}*/
 }
-@media (max-width:767px){
+/*@media (max-width:767px){
   body{padding-left:20px;padding-right:20px;}
   .navbar-fixed-top{margin-left:-20px;margin-right:-20px;}
   .container{width:auto;}
